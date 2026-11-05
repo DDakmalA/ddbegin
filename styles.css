@@ -1,5 +1,5 @@
 :root{
-    background: url(assets/battleback_ff_xsh.png) ;
+    background: url(battleback_ff_xsh.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -76,7 +76,7 @@ footer{
     bottom: 0;
     width: 100%;
     height: 30px;
-    background: url(assets/battleback_ff_default.png);
+    background: url(battleback_ff_default.png);
     padding-bottom: 3px;
     padding-top: 0px;
     border-top: 2px solid;
