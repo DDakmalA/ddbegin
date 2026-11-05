@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess who?</title>
+        <link rel="stylesheet" href="styles.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="assets/aubrey2.ico" sizes="32x32">
+
+</head>
+
+<body>
+    <header>
+     <nav >
+        <ul>
+          <li><a href="index.html" id="Home">Home</a></li>
+          <li><a href="about.html" id="About">My secrets</a></li>
+        </ul>
+    </nav>      
+        <!--ul refers to an unordered list, and utilises the li tag to form a list-->
+    <hr>
+    </header>
+
+    <div class="greetings">
+    <h2> Hello there!!</h2>
+    <!--ok i only used h2 here cus h1 felt like a really big fivehead-->
+    <img src="assets/introbox.png" alt="literally me talking omg" class="introbox"
+    style="height: 380px; width:510px;">
+    <!--digicam pics have difference of 130px-->
+    <!--img puts up an image, and uses src to find the specific image to be put up!!-->
+    </div>
+
+    <div class="dumyname">
+    <p>You may refer to me as <del>Diyanah</del>-<br>
+    No, no, sorry, I misspoke. I'm actually-
+    </p>
+    </div>
+
+<img src="assets/musicdivider.gif" style="padding: 10px;">
+<div>
+        <h1>Didi!! </h1> <img src="assets/certifiedpuppy.gif" alt="certified puppy made this!" class="pupgif">
+</div>
+
+<img src="assets/musicdivider.gif" style="padding: 10px;">
+    <audio controls>
+        <source src="assets/Malcolm Todd - 4Me 4Me.mp3" type="audio/mpeg">
+    </audio>
+
+<img src="assets/musicdivider.gif" style="padding: 10px;">
+
+<div class="container">
+    <h3>About me!</h3>
+    <ul>
+        <li>My birth sign is <span style="color: rgb(107, 12, 66);">scorpio</span>♏</li>
+        <li>I love <span style="color: rgb(134, 4, 4);">Red Bull</span></li>
+        <!--heyhey lookie heree span is what allows this^ specific part to be red-->
+        <li>I like <span style="color:rgb(55, 97, 100)">Cepheid</span>'s music🎶</li>
+        <li>I started the debate club <sup>(circa 2024)</sup></li>
+        <!--sup as in superscript woaahhh-->
+        </ul>   
+</div>
+
+<img src="assets/starrydivider.gif" alt="stardivider" style="padding: 15px;">
+<div class="container">
+    Relating to CS4127, I really hope to...
+    <ol type="I">
+        <li>Improve my webdev execution!!!</li>
+        <li>Gain a better understanding of webdev!!</li>
+        <li>Most importantly, have fun ;3</li>
+    </ol>
+</div>
+
+<img src="assets/starrydivider.gif" alt="stardivider" style="padding: 15px;">
+
+    <table style="width:50%">
+        <tr>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thur</th>
+        </tr>
+        <!--tr stands for table rows, th is table header/heading-->
+        <tr>
+            <td>Maths for Computing</td>
+            <td>Academic & Professional skills for Computing</td>
+            <td>Introduction to Programming</td>
+            <td>Web Development</td>
+            <!--td stands for table data = shows table cells-->
+        </tr>
+    </table>
+<img src="assets/starrydivider.gif" alt="stardivider" style="padding: 15px;">
+<div class="container">
+    <p>
+    Itching to know more about me? <br>
+    Here's a link to a song I hold close to my heart:<br>
+    <a href="https://open.spotify.com/track/4zXuYQNDmw3dlauyc8q3Kd?si=b001234c1ce840c3" style="text-decoration: none;">Click here!</a><br>
+     ♡ <br>
+    <a href="mailto:akmaldeday@gmail.com" style="text-decoration: none;">Send your love letters here!</a>
+    </p>
+</div>
+
+<img src="assets/starrydivider.gif" alt="stardivider" style="padding: 15px;">
+    <h2 style="margin: 15px">
+    Hey um... You're at the bottom of the page now... 
+        <br>
+        <p><a href="#top" id="backtotop">Wanna go back up?</a></p>
+    </h2>
+
+<img src="assets/musicdivider.gif" style="padding: 10px;">
+
+    <!--this is a feedback from.-->
+<div class="form">
+    <p>Wait! Before you leave... please?</p>
+        <form action="/submit feedback" method="post"> 
+            <label for="Full name">Full name</label>
+            <input type="txt" id="fullname" name="fullname" required>
+<br><br>
+            <label for="email">Email</label>
+            <input type="txt" id="email" name="email" required> 
+
+<br><br>
+            <p>How much do you love~♡ me?</p>
+                <input type="radio" id="r1" name="rating" value="gay" >
+                <label for="radio">a little ig</label>
+<br>
+                <input type="radio" id="r2" name="rating" value="gayer" >
+                <label for="radio">a lot</label>
+<br>
+<!--rating-->
+                <input type="radio" id="r3" name="rating" value="gayest" >
+                <label for="radio">You are my goddess, my emotional anchor</label>
+<br><br>
+<!--dropdown choice thingy-->
+                <label for="source">fav part of me?</label>
+                    <select>
+                        <option>cmon, pick one!</option>
+                        <option value="eyes">My eyes</option>
+                        <option value="hands">My hands</option>
+                        <option value="totallyheart">My... heart</option>
+                    </select>
+<br><br>
+<!--free message thingle dingle-->
+                <label for="message">Leave a message!</label>
+                <textarea id="message" name="message" placeholder="iloveyouiloveyouiloveyou"></textarea>
+<br>
+                <p>Ideal date?</p>
+                <input type="checkbox" id="d1" name="ideald" value="cute" >
+                <label for="d1">Movies!</label>
+<br>
+                <input type="checkbox" id="d2" name="ideald" value="crazy" >
+                <label for="d2">Theme park!</label>
+<br>
+<!--rating-->
+                <input type="checkbox" id="d3" name="ideald" value="hmm" >
+                <label for="d3">Making food together.</label>
+<br><br>
+                <input type="Submit" value="Submit">
+                <br>
+                <input type="reset" value="Clear">
+                
+        </form>
+</div>
+
+<img src="assets/musicdivider.gif" style="padding: 10px;">
+
+<br>
+
+<footer>
+    <div>   
+        <marquee scrollamount="9">
+            <img src="assets/mizisuabutton.jpg">
+            <img src="assets/ao3kudos.gif">
+            <img src="assets/mesmerizermiku.gif">
+            <img src="assets/mesmerizerteto.gif">
+        
+       </marquee>
+       <!--in case you haven't noticed. marquee makes the text go from R to L-->
+    </div>
+
+    </footer>
+</body>
+</html>
